@@ -66,3 +66,9 @@ The `ApplicationID` field is where you have to insert your application's ID foun
 ![ID](https://i.ibb.co/pzsqH98/image.png)
 
 For the next step you can download the `package.json` on this repository. After that you can install the needed dependencies using `npm i discord-rpc`.
+
+The last step is launching it. You can do that by typing `node index.js` in a terminal window.
+The presence will run for as long as the terminal and Discord are running.
+To stop it, close the terminal.
+
+Star this repo if it helped you!
