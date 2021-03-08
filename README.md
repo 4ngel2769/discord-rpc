@@ -16,6 +16,7 @@
 ## Get started
 To begin with, head over to Discord's developer page (https://discord.com/developers/applications) and create a new application. However you decide to name it is the name that will appear on your presence. 
 My application is named "Helix", thus the displayed game name will be "Helix".
+
 ![RPC Name Example](https://i.ibb.co/KDnb9nV/image.png)
 
 #### Assets
