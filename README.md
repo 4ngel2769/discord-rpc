@@ -1,7 +1,9 @@
-## A guide to getting a functional custom presence on Discord.
-Table of contents
+## A detailed guide to getting a functional custom presence with buttons on Discord!
+### Table of contents
 * [FAQ](#faq)
 * [Get Started](#get-started)
+* [Assets](#assets)
+* [Code Part](#code)
 
 
 #### FAQ
@@ -16,6 +18,7 @@ To begin with, head over to Discord's developer page (https://discord.com/develo
 My application is named "Helix", thus the displayed game name will be "Helix".
 ![RPC Name Example](https://i.ibb.co/KDnb9nV/image.png)
 
+#### Assets
 Next you will go to the **Art Assets** tab under **Rich Presence** (figure [A1](#a1)) and add your large image ([A2](#a2)) and small image ([A3](#a3)) to the rich presence assets and give them a name ([A4](#a4)).
 Keep in mind! All images need to be a minimum of 512 x 512 pixels.
 
@@ -30,6 +33,10 @@ Keep in mind! All images need to be a minimum of 512 x 512 pixels.
 ###### A4
 ![Figure A4](https://i.ibb.co/CWcGZyS/image.png)
 
+### Code
+Now that the image part is done we can get to coding!
+
+In a folder create an `index.js` file with the following contents.
 
 ```
 var rpc = require("discord-rpc")
@@ -48,10 +55,14 @@ client.on('ready', () => {
 
 client.login({ clientId : "ApplicationID" }).catch(console.error);
 ```
-## Tables
 
-| Left columns  | Right columns |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
+Replace the **details** field `your-text` with the text you want to be displayed under the game name.
+![details field](https://i.ibb.co/610LJpq/image.png)
+
+`Button1` is the name of the first button and `Link1` is the link activated when clicking the first button on the presence. `Button2` and `Link2` are the variables of the second button on the presence.
+Fill the fields accordignly.
+
+The `ApplicationID` field is where you have to insert your application's ID found on the **General Information** tab of the application.
+![ID](https://i.ibb.co/pzsqH98/image.png)
+
+For the next step you can download the `package.json` on this repository. After that you can install the needed dependencies using `npm i discord-rpc`.
