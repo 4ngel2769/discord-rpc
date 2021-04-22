@@ -72,4 +72,6 @@ The last step is launching it. You can do that by typing `node index.js` in a te
 The presence will run for as long as the terminal and Discord are running.
 To stop it, close the terminal.
 
+Happy coding!
+
 Star this repo if it helped you!
