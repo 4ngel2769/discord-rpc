@@ -14,6 +14,10 @@
 
 
 ## Get started
+
+## Update
+#### The code is now available for simple download [here](https://drive.google.com/drive/folders/1WDNYIlaBR8Zoo-N9TLHegu11mzo6wAiD?usp=sharing).
+
 To begin with, head over to Discord's developer page (https://discord.com/developers/applications) and create a new application. However you decide to name it is the name that will appear on your presence. 
 My application is named "Helix", thus the displayed game name will be "Helix".
 
