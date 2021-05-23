@@ -1,0 +1,15 @@
+{
+  "name": "discord-rpc",
+  "version": "1.0.0",
+  "description": "A fully customizable Discord rich-presence.",
+  "main": "index.js",
+  "dependencies": {
+    "discord-rpc": "git+https://github.com/djs/discord-rpc.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xZyn", // original author of the discord-rpc package.
+  "license": "ISC"
+}
