@@ -1,3 +1,8 @@
+# Deprecated.
+### This project is now archived due to Discord deprecating the [Discord-RPC SDK](https://discord.com/developers/docs/rich-presence/how-to) in favor of the [Discord GameSDK](https://discord.com/developers/docs/game-sdk/sdk-starter-guide).
+### A new project will be created soon.
+#
+> 
 ## A detailed guide to getting a functional custom presence with buttons on Discord!
 ### Table of contents
 * [FAQ](#faq)
